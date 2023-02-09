@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.mains {
+  height: 100vh;
+  width: 100vh;
+  color: #444;
+  background: #ffe7e3;
+  text-align: center;
+}
+.statement {
+  padding-top: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(36, 34, 34);
+}
+.yes-statement {
+  padding-top: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(10, 10, 10);
+}
+.no-statement {
+  padding-top: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(10, 10, 10);
+}
+.hearts {
+  color: red;
+}
+h2 {
+  font-size: 72px;
+}
+h3 {
+  font-size: 36px;
+}
+.subject a {
+  text-decoration: none;
+}
+.no a {
+  text-decoration: none}
+
+.options {
+  padding: 3%;
+  border-color: #ffe7e3;
+  background-color: #ffe7e3;
+  border-radius: 10px;
+}
+#no {
+  color: red;
+}
+#yes {
+  color: green;
+}
+.statement span {
+  color: rgb(220, 122, 17);
+}
+img {
+  height: 45px;
+  background-color: #ffe7e3;
+  animation: heart 4s linear infinite;
+}
+@keyframes heart {
+  0%{transform: scale(.5);}
+  50%{transform: scale(0.8);}
+  100%{transform: scale(.5)};}
+
+}
